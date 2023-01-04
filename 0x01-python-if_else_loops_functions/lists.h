@@ -16,6 +16,14 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
+def islower(c);
+def uppercase(str);
+def print_last_digit(number);
+def add(a, b);
+def pow(a, b);
+def fizzbuzz();
+def remove_char_at(str, n);
+def magic_calculation(a, b, c);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 listint_t *insert_node(listint_t **head, int number);
